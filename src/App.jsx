@@ -15,7 +15,7 @@ function App() {
 
   const changeName = () => {
     if (name === "Go to Cart / Items in Cart 🛒 :") {
-      setName("Back to Home");
+      setName("Hide Cart");
     } else {
       setName("Go to Cart / Items in Cart 🛒 :")
     }
@@ -30,7 +30,7 @@ function App() {
   return (
     <>
       <Navbar cartVisibility={cartVisibility} cartItems={cartItems} buttonName={changeName} name={name} cart={cart}/>
-      <Products cartVisibility={cartVisibility} cartItems={cartItems} setCartItems={setCartItems} cart={cart} changeShopName={changeName}/>
+      <Products cartVisibility={cartVisibility} cartItems={cartItems} setCartItems={setCartItems} cart={cart} changeName={changeShopName}/>
       <Footer />
 
     </>
