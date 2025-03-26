@@ -1,12 +1,7 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This app is designed as Shopping app using react+vite.
+We can choose the items which need to be add in cart using add to cart button.
+When the add to cart button is clicked the product will be added in the cart & the cart items count also increased.
+When click the 'go to cart button', the cart modal will be opened.
+The modal have 'back to home' button itself. When the button is clicked, the UI will be changed into home page.
+This modal having the items which are added in the cart with remove from cart button.
+When the 'remove from cart' button is clicked, the product will be removed from cart & the cart items count also changed respectively.
