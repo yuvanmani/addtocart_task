@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Navbar from './Navbar'
 import Products from './Products'
-import Footer from './Footer'
+
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -31,7 +31,7 @@ function App() {
     <>
       <Navbar cartVisibility={cartVisibility} cartItems={cartItems} buttonName={changeName} name={name} cart={cart}/>
       <Products cartVisibility={cartVisibility} cartItems={cartItems} setCartItems={setCartItems} cart={cart} changeName={changeShopName}/>
-      <Footer />
+      
 
     </>
   )
